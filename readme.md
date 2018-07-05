@@ -1,21 +1,10 @@
 # GeekBot - Bot discord de modération français
 
-**[Site Web](http://baptiste0928.net/geekbot)** | [Inviter GeekBot](https://discordapp.com/oauth2/authorize?client_id=438384691251511307&scope=bot&permissions=8) | [Discord de support](https://discord.gg/Dgdurw9) 
-![Capture d'écran montrant les logs de Geekbot](https://baptiste0928.net/assets/images/geekbot-bg.jpg)
+**/!\ Branche de développement, non stable !**
+**[Discord de développement](https://discord.gg/WgWhXHc)**
 
-## Fonctionnalités
-
- - Anti-insultes
- - Anti-spam
- - Sans configuration nécéssaire
- - Système de logs
- - Signalement de membres
- - Warns et mute
- - Mute automatique
- - **Et bien plus !!**
- 
- ## Contribution
- Toute contribution est la bienvenue. Pour plus d'informations sur la contribution, merci de lire le fichier `Readme.md` de la branche `dev` de ce repo.
+## Contributions
+Si vous souhaitez contribuer, merci de rejoindre le discord de développement de GeekBot, tout y est expliqué.
  
 ## Licence
 Geekbot est distribué sous licence GNU GPLv3, ce qui signifie que vous avez le droit de redistribuer des copies ou des modifications de GeekBot **à condition de citer l'auteur original (baptiste0928) et de le distribuer sous licence GNU GPLv3**.
