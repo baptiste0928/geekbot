@@ -1,13 +1,13 @@
-# GeekBot - Bot discord de modération français
+# GeekBot - Bot discord de modÃ©ration franÃ§ais
 
-**/!\ Branche de développement, non stable !**
-**[Discord de développement](https://discord.gg/WgWhXHc)**
+**/!\ Branche de dÃ©veloppement, non stable !**
+**[Discord de dÃ©veloppement](https://discord.gg/WgWhXHc)**
 
 ## Contributions
-Si vous souhaitez contribuer, merci de rejoindre le discord de développement de GeekBot, tout y est expliqué.
+Si vous souhaitez contribuer, merci de rejoindre le discord officiel de GeekBot et d'informer baptiste0928 que vous souhaitez contribuer.
  
 ## Licence
-Geekbot est distribué sous licence GNU GPLv3, ce qui signifie que vous avez le droit de redistribuer des copies ou des modifications de GeekBot **à condition de citer l'auteur original (baptiste0928) et de le distribuer sous licence GNU GPLv3**.
+Geekbot est distribuÃ© sous licence GNU GPLv3, ce qui signifie que vous avez le droit de redistribuer des copies ou des modifications de GeekBot **Ã  condition de citer l'auteur original (baptiste0928) et de le distribuer sous licence GNU GPLv3**.
 ```
 Copyright (C) 2018 Girardeau Baptiste
 
