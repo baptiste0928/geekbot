@@ -1,7 +1,6 @@
 # GeekBot - Bot discord de modération français
 
 **/!\ Branche de développement, non stable !**
-**[Discord de développement](https://discord.gg/WgWhXHc)**
 
 ## Contributions
 Si vous souhaitez contribuer, merci de rejoindre le discord officiel de GeekBot et d'informer baptiste0928 que vous souhaitez contribuer.
