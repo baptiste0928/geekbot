@@ -53,6 +53,7 @@ async def on_ready():
 
 @client.event
 async def on_server_join(server):
+	await asyncio.sleep(3)
 	if server.me.server_permissions.administrator:
 		print("GeekBot vient de rejoindre le serveur " + server.name + " !")
 		chan = client.get_channel("452126872994578434")
