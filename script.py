@@ -85,9 +85,9 @@ Cela lui permet notamment d'acceder à tous les channels afin de les modérer im
 Afin que tout fonctionne normalement, réinvitez GeekBet en lui donnant bien la permissions "Administrateur".
 **[Réinviter GeekBot](https://discordapp.com/oauth2/authorize?client_id=438384691251511307&scope=bot&permissions=8)**
 """, color=0xDB0F0F)
-	embed.set_footer(text="Bot créé par baptiste0928")
-	await client.send_message(server.owner, embed=embed)
-	await client.leave_server(server)
+		embed.set_footer(text="Bot créé par baptiste0928")
+		await client.send_message(server.owner, embed=embed)
+		await client.leave_server(server)
 
 
 @client.event
