@@ -1,17 +1,17 @@
 ﻿#Copyright (C) 2018 Girardeau Baptiste
 #
-#This program is free software; you can redistribute it and/or modify  
-#it under the terms of the GNU General Public License as published by  
-#the Free Software Foundation; either version 2 of the License, or  
+#This program is free software; you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation; either version 2 of the License, or
 #(at your option) any later version.
 #
-#This program is distributed in the hope that it will be useful,  
-#but WITHOUT ANY WARRANTY; without even the implied warranty of  
-#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the  
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 #GNU General Public License for more details.
 #
-#You should have received a copy of the GNU General Public License along  
-#with this program; if not, write to the Free Software Foundation, Inc.,  
+#You should have received a copy of the GNU General Public License along
+#with this program; if not, write to the Free Software Foundation, Inc.,
 #51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 import asyncio, discord, re, time
@@ -53,9 +53,10 @@ async def on_ready():
 
 @client.event
 async def on_server_join(server):
+	await asyncio.sleep(3)
 	if server.me.server_permissions.administrator:
 		print("GeekBot vient de rejoindre le serveur " + server.name + " !")
-		chan = await client.get_channel("452126872994578434")
+		chan = client.get_channel("452126872994578434")
 		await client.send_message(chan, "GeekBot vient de rejoindre le serveur " + server.name + " ! :tada::tada:")
 		role = await client.create_role(server, name="GeekBot Logs")
 		everyone_perms = discord.PermissionOverwrite(read_messages=False)
@@ -84,9 +85,9 @@ Cela lui permet notamment d'acceder à tous les channels afin de les modérer im
 Afin que tout fonctionne normalement, réinvitez GeekBet en lui donnant bien la permissions "Administrateur".
 **[Réinviter GeekBot](https://discordapp.com/oauth2/authorize?client_id=438384691251511307&scope=bot&permissions=8)**
 """, color=0xDB0F0F)
-	embed.set_footer(text="Bot créé par baptiste0928")
-	await client.send_message(server.owner, embed=embed)
-	await client.leave_server(server)
+		embed.set_footer(text="Bot créé par baptiste0928")
+		await client.send_message(server.owner, embed=embed)
+		await client.leave_server(server)
 
 
 @client.event
