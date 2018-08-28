@@ -173,6 +173,9 @@ async def on_message(message):
 				await client.delete_message(alert_message)
 				return
 
+	if message.server.id == "464727714566242305":
+		return
+	
 	#Anti-spam
 	async for msg in client.logs_from(message.channel, limit=5):
 		if msg.author == message.author and msg.id != message.id:
