@@ -10,10 +10,6 @@ connart
 conart
 connarts
 conarts
-con
-conne
-cons
-connes
 fdp
 pute
 putes
