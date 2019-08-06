@@ -1,14 +1,20 @@
-# GeekBot - Bot discord de mod�ration fran�ais
+# GeekBot - Bot discord de modération français
 
-**[Site Web](http://baptiste0928.net/geekbot)** | [Inviter GeekBot](https://discordapp.com/oauth2/authorize?client_id=438384691251511307&scope=bot&permissions=8) | [Discord de support](https://discord.gg/Dgdurw9) 
-![Capture d'�cran montrant les logs de Geekbot](https://baptiste0928.net/assets/images/geekbot-bg.jpg)
+~~**[Site Web](http://baptiste0928.net/geekbot)** | [Inviter GeekBot](https://discordapp.com/oauth2/authorize?client_id=438384691251511307&scope=bot&permissions=8) | [Discord de support](https://discord.gg/Dgdurw9)~~
 
-## Fonctionnalit�s
+## :warning: Avertissement
+Depuis début 2019, **le projet GeekBot n'est plus maintenu**, et son dépot est archivé. Si vous souhaitez récupérer le code, veuillez prendre en compte les points suivants :
+- Le projet est basé sur [la branche async de discord.py](https://github.com/Rapptz/discord.py/tree/async), qui n'est plus mise à jour depuis plus de 2 ans.
+- De nombreux bugs sont présents sur le projet, résultant d'une très mauvaise gestion des erreurs et structuration du code.
+
+----
+
+## Fonctionnalités
 
  - Anti-insultes
  - Anti-spam
- - Sans configuration n�c�ssaire
- - Syst�me de logs
+ - Sans configuration nécéssaire
+ - Système de logs
  - Signalement de membres
  - Warns et mute
  - Mute automatique
@@ -18,7 +24,7 @@
  Toute contribution est la bienvenue. Pour plus d'informations sur la contribution, merci de lire le fichier `Readme.md` de la branche `dev` de ce repo.
  
 ## Licence
-Geekbot est distribu� sous licence GNU GPLv3, ce qui signifie que vous avez le droit de redistribuer des copies ou des modifications de GeekBot **� condition de citer l'auteur original (baptiste0928) et de le distribuer sous licence GNU GPLv3**.
+Geekbot est distribué sous licence GNU GPLv3, ce qui signifie que vous avez le droit de redistribuer des copies ou des modifications de GeekBot **à condition de citer l'auteur original (baptiste0928) et de le distribuer sous licence GNU GPLv3**.
 ```
 Copyright (C) 2018 Girardeau Baptiste
 
